@@ -1,6 +1,8 @@
 import React from "react";
 import { View, Text, StyleSheet, Button } from "react-native";
 
+const newcomp = [];
+
 const ColorCounter = ({ color, onIncrease, onDecrease }) => {
   return (
     <View>
